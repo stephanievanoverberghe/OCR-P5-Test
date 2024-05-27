@@ -1,0 +1,11 @@
+:root {
+  --blue: #007bff;
+}
+
+li {
+  color: var(--blue);
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
