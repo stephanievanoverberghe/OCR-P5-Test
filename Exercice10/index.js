@@ -1,16 +1,12 @@
 //votre code ici
 
-const printNumbers = n => {
+const printNumbers = (n) => {
     let result = '';
     for (let i = 1; i <= n; i++) {
-        result += i;
-        if (i < n) {
-            result += ', ';
-        }
+        result += i + ' ';
     }
-    return result
-}
+    return result.trim();
+};
 
-console.log(printNumbers(10));
+export default printNumbers;
 
-export default printNumbers

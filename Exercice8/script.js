@@ -1,7 +1,7 @@
 //Votre code ici
 
-const add = (int, float) => {
-    return int + float;
+const add = (a, b) => {
+    return parseFloat(a) + parseFloat(b);
 }
 
 console.log(add(10, 3));

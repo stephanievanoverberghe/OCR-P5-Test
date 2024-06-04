@@ -1,9 +1,5 @@
-:root {
-  --blue: #007bff;
-}
-
-li {
-  color: var(--blue);
+ul li {
+  color: #007bff;
   padding-left: 10px;
   margin-bottom: 15px;
 }
